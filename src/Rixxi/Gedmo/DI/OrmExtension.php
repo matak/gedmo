@@ -49,7 +49,7 @@ class OrmExtension extends CompilerExtension implements Kdyby\Doctrine\DI\IEntit
 			'tree',
 		);
 
-		$path = realpath(__DIR__ . '/../../../../../../gedmo/doctrine-extensions/lib/Gedmo');
+		$path = realpath(__DIR__ . '/../../../../../../matak/doctrine-extensions/lib/Gedmo');
 
 		$mappings = array();
 		foreach ($annotations as $annotation) {
